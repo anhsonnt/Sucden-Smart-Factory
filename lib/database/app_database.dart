@@ -2,7 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:postgres/postgres.dart';
-import 'package:sucden_smart_factory/models/userslist_info.dart';
+//import 'package:sucden_smart_factory/models/userslist_info.dart';
 
 class AppDatabase {
   String buyerEmailValue = '';
@@ -41,8 +41,9 @@ class AppDatabase {
             // for external device like mobile phone use domain.com or
             // your computer machine IP address (i.e,192.168.0.1,etc)
             // when using AVD add this IP 10.0.2.2
-            '192.168.1.252',
-            5433,
+            'weightbridge.ddns.net',
+            // '10.0.2.2',
+            5432,
             'weightbridge',
             username: 'postgres',
             password: '123@321',
@@ -50,7 +51,7 @@ class AppDatabase {
             queryTimeoutInSeconds: 30,
             timeZone: 'UTC',
             useSSL: false,
-            isUnixSocket: false,
+            // isUnixSocket: false,
           )
         : connection);
 

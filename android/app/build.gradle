@@ -24,6 +24,8 @@ if (flutterVersionName == null) {
 
 android {
     namespace "sucdencoffee.vn.sucden_smart_factory"
+//    sucden_smart_factorycompileSdkVersion localProperties.getProperty('flutter.compileSdkVersion').toInteger()
+//    ndkVersion localProperties.getProperty('flutter.ndkVersion').toInteger()
     compileSdkVersion flutter.compileSdkVersion
     ndkVersion flutter.ndkVersion
 
@@ -45,7 +47,7 @@ android {
         applicationId "sucdencoffee.vn.sucden_smart_factory"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-gradle-build-configuration.
-        minSdkVersion flutter.minSdkVersion
+        minSdkVersion 21 //flutter.minSdkVersion
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName

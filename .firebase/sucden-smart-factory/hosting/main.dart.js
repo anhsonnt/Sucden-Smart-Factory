@@ -24825,7 +24825,7 @@ return s},
 aL1(a,b,c){var s=new A.F0(new A.bB(new A.ap($.an,t.LR),t.zh),a,b,c,new A.zz(A.a([],t.mC)))
 s.a13(a,b,c)
 return s},
-zu:function zu(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q){var _=this
+zu:function zu(a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p){var _=this
 _.a=a
 _.b=b
 _.c=c
@@ -24837,16 +24837,15 @@ _.w=h
 _.x=i
 _.y=j
 _.z=k
-_.Q=l
-_.ax=m
-_.ay=n
-_.ch=o
+_.ax=l
+_.ay=m
+_.ch=n
 _.CW=null
 _.cx=$
 _.dx=!1
 _.dy=$
-_.fr=p
-_.nw$=q},
+_.fr=o
+_.nw$=p},
 KH:function KH(){},
 ajx:function ajx(a){this.a=a
 this.b=0},
@@ -25639,7 +25638,7 @@ aal:function aal(){},
 aam:function aam(){},
 aan:function aan(){},
 Gr(){var s=null,r=new A.Yl([],[]),q=A.No(s,s,t.yE),p=A.No(s,s,t.Ys),o=t.N
-q=new A.zu(q,p,"192.168.1.252",5433,"weightbridge","postgres","123@321",!1,30,30,"UTC",!1,A.b(o,o),new A.a8i(A.b(o,t.Fd)),new A.ajx(A.b(t.S,o)),B.a_,new A.zz(A.a([],t.mC)))
+q=new A.zu(q,p,"weightbridge.ddns.net",5432,"weightbridge","postgres","123@321",!1,30,30,"UTC",A.b(o,o),new A.a8i(A.b(o,t.Fd)),new A.ajx(A.b(t.S,o)),B.a_,new A.zz(A.a([],t.mC)))
 p=new A.hi()
 q.dy=p
 p.a=q
@@ -26673,7 +26672,7 @@ $1(a){var s=$.cj
 s=(s==null?$.cj=A.eZ(self.window.flutterConfiguration):s).b
 if(s==null)s=null
 else{s=s.canvasKitBaseUrl
-if(s==null)s=null}return(s==null?"https://www.gstatic.com/flutter-canvaskit/4a585b79294e830fa89c24924d58a27cc8fbf406/":s)+a},
+if(s==null)s=null}return(s==null?"https://www.gstatic.com/flutter-canvaskit/6e2ea58a5ccbefcfadc2d4b7b8045fc6c20ab812/":s)+a},
 $S:80}
 A.anP.prototype={
 $1(a){this.a.remove()
